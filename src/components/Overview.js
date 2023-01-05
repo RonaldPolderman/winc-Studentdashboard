@@ -8,7 +8,7 @@ function Overview(props) {
   return (
     <div className="header">
       <Link className="link" onClick={() => handleClick(overView)} to={`/`}>
-        <h3>Overview</h3>
+        <h2>Overview</h2>
       </Link>
     </div>
   );

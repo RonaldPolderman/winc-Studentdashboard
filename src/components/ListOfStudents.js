@@ -14,6 +14,9 @@ function ListOfStudents(props) {
 
   return (
     <div className="navbar">
+      <h4 className="student_specifics">
+        select a student for studentspecific information
+      </h4>
       <h3 className="studentlist">{studentsList}</h3>
     </div>
   );

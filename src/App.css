@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: bisque;
+  background: linear-gradient(rgb(67, 124, 205), rgb(69, 214, 202));
 }
 
 .buttons_chartfilter {
@@ -18,14 +18,23 @@ body {
   background-color: rgb(162, 243, 162);
 }
 
-h5 {
-  background-color: rgb(236, 203, 163);
+h3 {
+  font-size: 23px;
+  margin-left: 30px;
+}
+
+.footer {
   padding: 15px;
   animation: slideInFromBottom 0.5s ease-in-out 0s;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
+  text-align: center;
+  font-size: 25px;
+  background: linear-gradient(to right, white, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes slideInFromBottom {
@@ -38,22 +47,50 @@ h5 {
     transform: translateY(0px);
   }
 }
-.footer {
-  text-align: center;
-  font-size: 2vw;
-  color: bisque;
-  -webkit-text-stroke: 0.05vw black;
-}
 
 .header {
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 70px;
 }
+
+h2 {
+  font-size: 40px;
+}
+
 .link:hover {
   color: rgb(85, 209, 85);
 }
 
 .student_list {
-  color: salmon;
+  font-size: 2vw;
+  background: linear-gradient(to right, white, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.student_specifics {
+  writing-mode: vertical-lr;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.student_header {
+  writing-mode: vertical-lr;
+}
+
+.studentprofile_container {
+  display: flex;
+}
+
+.studentinfo_additional {
+  padding-left: 110px;
+}
+
+ul {
+  list-style: none;
 }
